@@ -6,7 +6,7 @@ import ToasterContext from "@/context/ToastContext";
 import ActiveStatus from "@/components/ActiveStatus";
 
 export const metadata: Metadata = {
-  title: "HayChat",
+  title: "HeyChat",
   description: "Chat app",
 };
 
