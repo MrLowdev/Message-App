@@ -1,5 +1,4 @@
 import Link from "next/link";
-import React from "react";
 
 const NotFound = () => {
   return (
@@ -10,11 +9,11 @@ const NotFound = () => {
             404
           </h1>
           <p className="mb-4 text-3xl tracking-tight font-bold md:text-4xl text-gray-900">
-            Something's missing.
+            Something missing.
           </p>
           <p className="mb-4 text-lg font-light text-gray-700">
-            Sorry, we can't find that page. You'll find lots to explore on the
-            home page.{" "}
+            Sorry, we can not find that page. You will find lots to explore on
+            the home page.
           </p>
           <Link
             href="/"
