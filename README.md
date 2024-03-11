@@ -80,7 +80,7 @@ To run this project, you will need to add the following environment variables to
 
 ## Demo
 
-Gif - ![ezgif com-video-to-gif-converter](https://github.com/MrLowdev/Message-App/assets/161945146/819a0570-2340-4855-9682-628ab68a3fe5)
+![Recording2024-03-11200947-ezgif com-video-to-gif-converter](https://github.com/MrLowdev/Message-App/assets/161945146/fce6f979-f3a2-4692-933e-b54204914880)
 
 Link - https://heychat-app.netlify.app
 
