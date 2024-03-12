@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Hey Chat
 
-First, run the development server:
+Hey Chat is a messaging application that enables users to communicate in real-time. It is designed to function like a messenger clone. The app is responsive and offers a full-screen mode for a better user experience. 
+
+
+## Screenshots
+
+![Screenshot 2024-03-11 194943](https://github.com/MrLowdev/E-commerce/assets/161945146/f831c452-aace-4227-8c91-92f97f019ac0)
+
+
+
+## Features
+
+- Responsive
+- Fullscreen mode
+- Real-time chat
+
+
+## Tech Stack
+
+**Client:** React, Nextjs, pusher, Cloudinary, zustand, next auth, TailwindCSS
+
+**Server:** Node, Nextjs,prisma
+
+
+## Run Locally
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/MrLowdev/Message-App.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Go to the project directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  cd Message-App
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Install dependencies
 
-## Learn More
+```bash
+  npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Start the server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+  npm run start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Environment Variables
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To run this project, you will need to add the following environment variables to your .env file
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+`DATABASE_URL`
+
+`GITHUB_ID`
+
+`GITHUB_SECRET`
+
+`NEXTAUTH_URL`
+
+`NEXTAUTH_SECRET`
+
+`GOOGLE_CLIENT_ID`
+
+`GOOGLE_CLIENT_SECRET`
+
+`NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME`
+
+`PUSHER_APP_ID`
+
+`NEXT_PUBLIC_PUSHER_APP_KEY`
+
+`PUSHER_SECRET`
+
+
+## Demo
+
+![Recording2024-03-11200947-ezgif com-video-to-gif-converter](https://github.com/MrLowdev/Message-App/assets/161945146/fce6f979-f3a2-4692-933e-b54204914880)
+
+Link - https://heychat-app.netlify.app
+
